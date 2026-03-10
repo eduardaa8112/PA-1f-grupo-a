@@ -1,0 +1,200 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/eduardaa8112/PA-1f-grupo-a/blob/main/contas%20matematicas%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Calcular a area do retangulo"
+      ],
+      "metadata": {
+        "id": "8sY8a7S_z-Qq"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "escrever um programa que calcula a media das notas do aluno.\n",
+        "\n",
+        "entrada: nome, idade e as 04 notas do bimestre\n",
+        "\n",
+        "processamento: calcular a media\n",
+        "\n",
+        "saida: mostrar o noem do aluno e a media obtida"
+      ],
+      "metadata": {
+        "id": "F_Qs_kgfCufG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "Z8auSZYfGd3m"
+      },
+      "execution_count": 21,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Entrada\n",
+        "nome = str(input(\"Digite seu nome: \"))\n",
+        "idade = int(input(\"Digite sua idade: \"))\n",
+        "nota = int(input(\"digite sua nota: \"))\n",
+        "nota = int(input(\"digite a proxima nota: \"))\n",
+        "nota = int(input(\"digite sua nota: \"))\n",
+        "nota = int(input(\"digite sua nota: \"))\n",
+        "\n",
+        "# Processamento\n",
+        "media = nota + nota + nota + nota/4\n",
+        "\n",
+        "# Saida\n",
+        "\n",
+        "print (f\"Sua média é: {media}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 356
+        },
+        "id": "sIDoEv0iGeuF",
+        "outputId": "128f569d-b81c-41bf-e334-547ff5e7b04c"
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_259/1499847083.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# Entrada\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mnome\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Digite seu nome: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0midade\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Digite sua idade: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mnota\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"digite sua nota: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mnota\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"digite a proxima nota: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m   1175\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1176\u001b[0m             )\n\u001b[0;32m-> 1177\u001b[0;31m         return self._input_request(\n\u001b[0m\u001b[1;32m   1178\u001b[0m             \u001b[0mstr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mprompt\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1179\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m\"shell\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m   1217\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1218\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1219\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1220\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1221\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Entrada\n",
+        "comprimento = float(input(\"Digite o comprimento do retangulo:\"))\n",
+        "altura = float(input(\"Digite a altura do retangulo:\"))\n",
+        "\n",
+        "# Processamento\n",
+        "\n",
+        "área = comprimento * altura\n",
+        "\n",
+        "\n",
+        "# Saida\n",
+        "\n",
+        "print (f\"O total da área do retangulo é:{área}\")\n"
+      ],
+      "metadata": {
+        "id": "8mHTGyGJ0JME"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "M9nBhq0-GabE"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um cadastro de usuario:\n",
+        "\n",
+        "Objetivo: trabalhar com string  (str)\n",
+        "\n",
+        "Entrada de dados: Nome e idade\n",
+        "Processamento: armazenar os dados\n",
+        "Saida: mostrar uma mensagem de olá e a idade do usuário"
+      ],
+      "metadata": {
+        "id": "tgncmSuK2tM1"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Entrada\n",
+        "nome = str(input(\"Digite seu nome:\"))\n",
+        "idade = int(input(\"Digite sua idade\"))\n",
+        "\n",
+        "# Saida\n",
+        "\n",
+        "print (f\"Olá {nome}, seja bem vindo!\")\n",
+        "print (f\"voce tem {idade} anos.\")"
+      ],
+      "metadata": {
+        "id": "mg7a3xQL3GR-"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Fazer um programa que calcula o dobro de um número.\n",
+        "\n",
+        "Entrada: um número\n",
+        "\n",
+        "Processamento: Calcular o dobro\n",
+        "\n",
+        "Saída: mostrar o resultado."
+      ],
+      "metadata": {
+        "id": "TJvUApdc4zXT"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Entrada\n",
+        "numero = float (input(\"Digite um número para descobrir seu dobro.\"))\n",
+        "\n",
+        "# Processamento\n",
+        "dobro = numero + numero\n",
+        "\n",
+        "# Saida\n",
+        "\n",
+        "print (f\"o dobro do numero {numero} é igual a {dobro}\")"
+      ],
+      "metadata": {
+        "id": "4l1MF88w549i"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
