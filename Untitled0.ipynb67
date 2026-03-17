@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyNE9gJTVRMinTx0Ewq+53J8",
+      "authorship_tag": "ABX9TyMvUPiiXg2I7BMHKOjm+Aa1",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -58,6 +58,7 @@
         "a = int(input(\"digite um numero : \"))\n",
         "b = int(input(\"digite outro numero : \"))\n",
         "\n",
+        "\n",
         "#processamento\n",
         "\n",
         "soma =  a + b\n",
@@ -76,6 +77,221 @@
         "print(f\"o resultado da divisão inteira de {a} e {b} e igual a : {div_int} :D\")\n",
         "print(f\"o resto da divisão de {a} e {b} é igual a : {resto}\")\n",
         "print(f\"o resultado da potenciacão de {a} e {b} é igual a : {potencia}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# operadores\n",
+        "a = int(input(\"digite um numero : \"))\n",
+        "b = int(input(\"digite outro numero : \"))\n",
+        "\n",
+        "#peocessamento\n",
+        "\n",
+        "# comparação\n",
+        "igual = a == b\n",
+        "\n",
+        "#saida\n",
+        "print(igual)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "00sKb9KNGsy5",
+        "outputId": "416c46eb-3aa3-47af-9177-998781d04ff1"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero : 3\n",
+            "digite outro numero : 2\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# operadores\n",
+        "a = int(input(\"digite um numero : \"))\n",
+        "b = int(input(\"digite outro numero : \"))\n",
+        "\n",
+        "#peocessamento\n",
+        "\n",
+        "# comparação\n",
+        "igual = a == b\n",
+        "\n",
+        "diferente = a != b\n",
+        "\n",
+        "#saida\n",
+        "print(diferente)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sAzN5ZshGmWL",
+        "outputId": "ccf56acb-1caf-44d1-ad59-d607415f542c"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero : 6\n",
+            "digite outro numero : 7\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# operadores\n",
+        "a = int(input(\"digite um numero : \"))\n",
+        "b = int(input(\"digite outro numero : \"))\n",
+        "\n",
+        "#peocessamento\n",
+        "\n",
+        "# comparação\n",
+        "igual = a == b\n",
+        "\n",
+        "\n",
+        "maior = a > b\n",
+        "menor = a < b\n",
+        "maiorigual = a >= b\n",
+        "menorigual = a <= b\n",
+        "\n",
+        " #saida\n",
+        "print(maior)\n",
+        "print(menor)\n",
+        "print(menorigual)\n",
+        "print(maiorigual)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f8ywvmfFInb7",
+        "outputId": "039a289f-73cd-4967-a15c-9a49fcbf59c6"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um numero : 6\n",
+            "digite outro numero : 7\n",
+            "False\n",
+            "True\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# fazer um programa para converter a temperatura\n",
+        "\n",
+        "# f= (C x 9/5) + 32\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "waWfXue4K4hS",
+        "outputId": "6563b836-d569-4ba0-d24e-926326d083a0"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "digite a temperatura em celsius11\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# fazer um programa que converte KM em metros\n",
+        "\n",
+        "# entrada\n",
+        "a = int(input(\"digite um primeiro valor em metros \"))\n",
+        "b = int (input(\"digite um segundo valor em km \"))\n",
+        "\n",
+        "# processamento\n",
+        "a = a / 1000\n",
+        "b = b * 1000\n",
+        "\n",
+        "#saida\n",
+        "print(f\"o seu primeiro valor em km é igual a {a}\")\n",
+        "print(f\"o seu segundo valor em metros é igual a {b} \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f2iwzRsDMe1t",
+        "outputId": "cdbbb129-e37a-434b-d1ea-a3dc665a9516"
+      },
+      "execution_count": 31,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um primeiro valor em metros 89\n",
+            "digite um segundo valor em km 5\n",
+            "o seu primeiro valor em km é igual a 0.089\n",
+            "o seu segundo valor em metros é igual a 5000 \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# fazer um programa que converte horas em minutos\n",
+        "\n",
+        "# entrada\n",
+        "a = int(input(\"digite um valor em minutos\"))\n",
+        "\n",
+        "# processamento\n",
+        "a = a / 60\n",
+        "\n",
+        "#saida\n",
+        "print(f\"seu valor em horas é igual a {a}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qH2hBLLIMKRk",
+        "outputId": "35b9a7dd-cd25-4d0e-c9a2-dc54c24ffa68"
+      },
+      "execution_count": 29,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um valor em minutos60\n",
+            "seu valor em horas é igual a 1.0\n"
+          ]
+        }
       ]
     }
   ]
